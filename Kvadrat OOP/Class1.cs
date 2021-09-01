@@ -9,12 +9,15 @@ namespace Kvadrat_OOP
         // Properties
 
         private int side;
-        public int MyProperty { get; set; }
         public int Side
         {
             get
             {
                 return side;
+            }
+            set
+            {
+                side = 5;
             }
         }
 
@@ -33,7 +36,7 @@ namespace Kvadrat_OOP
         // Methods
         public int Omkreds()
         {
-            int a = 4 * side;
+            int a = 4 *sSide;
             return a;
         }
 

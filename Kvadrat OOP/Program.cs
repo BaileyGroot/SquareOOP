@@ -14,11 +14,12 @@ namespace Kvadrat_OOP
 
             // Printing perimeter out
 
+            square2.Side = 7;
+
             Console.WriteLine(square.Omkreds());
             Console.WriteLine(square1.Omkreds());
             Console.WriteLine(square.Arealet());
             Console.WriteLine(square1.Arealet());
-            Console.WriteLine(square2.MyProperty);
 
             // Preventing the program from closing down.
             Console.ReadKey();
